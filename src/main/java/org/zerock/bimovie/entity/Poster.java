@@ -22,6 +22,7 @@ public class Poster {
     // 포스터 순번
     private int idx;
 
+    // movie_mno
     @ManyToOne(fetch = FetchType.LAZY)
     private Movie movie;
 }
